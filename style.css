@@ -10,13 +10,26 @@ html body{
 		color: white;
 		margin-top: -20px;
 		margin-left: -19px;
-		text-shadow: 5px 5px black;
+		text-shadow: 8px 8px black;
 	}
 	.fancy-text{
 		font-family: Lobster;
-		font-size: 18px;
+		font-size: 24px;
 		margin-top: 0px;
 		text-shadow: 0px 0px black;
+	}
+	.zoom {
+ 	padding: 20px;
+ 	margin-bottom: 50px;
+ 	margin-right: 20px;
+  	transition: transform .2s; /* Animation */
+  	width: 100px;
+  	height: 100px;
+  	color:white ;
+	}
+
+	.zoom:hover {
+  	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 	}
 	#right-tabbed{
 		text-align: right;
