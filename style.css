@@ -29,7 +29,6 @@ html body{
    }
 
 	.zoom {
-  	transition: transform .2s; /* Animation */
   	color: white ;
     margin: -1vw;
 	}
