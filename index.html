@@ -1,37 +1,223 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta property="og:image" content="https://imgur.com/6LaR1uT.jpg">
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href= 'NRicon.jpg' type="image/png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js" type="text/javascript"></script> 
+    <link rel="stylesheet" type="text/css" href="style.css">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
-<title> Navid Rayhan </title>
+    
 <body>
-  <div class="navbar" style="margin: -8px">
-    <a href="javascript:window.location.href=window.location.href">Home</a>
-    <a href="./Resume">Resume</a>
-    <div class="dropdown">
-      <button class="dropbtn">Personal Projects 
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="http://navidrayhan.pythonanywhere.com/StatFreaks/">StatFreaks Inc.</a>
-        <a href="https://scuttbutt.azurewebsites.net/">Scuttle-Butt Web chat</a>
-        <a href="https://github.com/NavidRayhan/navidrayhan.github.io">Source Code for this page</a>
-      </div>
-    </div> 
-  </div>
+<div class="full-container" id="init-cover">
+    <div class='text-container' style="width:100%; height:75vh">
+        <h1>Rayhan.Navid()</h1>
+        <h2>Software Engineer Intern</h2>
+        <a style="font-size:200px; color:white"href="#section02"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
+      </section>
+    </div>
+</div>
 
-  <h1>Navid Rayhan</h1>
-  <h2>Aspiring Backend & FullStack Software Engineer</h2> 
+<div class='full-container'>
+    <div class='text-container' id="section02">
+        <h1>About Me</h1>
+        <h2 style="line-height: 120%;">
+            I am a 3rd year Math & CS major @ McMaster University with a passion for software engineering. 
+            My areas of interest are Full-stack/Backend  Develop&shy;ment and Data Engineering.  
+        </h2>
+        <h3><b>Languages</b>: Python, C#, SQL, JavaScript, Java, HTML/CSS, XML, Ruby <br>
+        <b>Frameworks</b>: .NET, Django, Node, Angular, TensorFlow, Rails, mySQL<br>
+        <b>Tools</b>: Git, REST APIs, HTTP Methods, MS SQL Server, AWS, RabbitMQ, Bash, Windows, Linux, Agile
+        <br><br>
+        Please, don't hesitate to connect on one of my professional social media, download my 
+        <b>resume</b>, or view the source code for this site!</h3><br><br><br>
+        <div style="text-align: center;">
+            <a href="https://github.com/NavidRayhan"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href= "https://www.linkedin.com/in/navidrayhan/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/NavidRayhan/navidrayhan.github.io"><i class="fa fa-code" aria-hidden="true"></i></a>
+            <a href= "mailto:work.navidrayhan@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href= "images/NavidRayhanResume.pdf"><i class="fa fa-download" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class='image-container'>
+        <img style="border-radius: 100%"src="images/bitmo.jpg">
+    </div>
+</div>
 
-<div class= "footer">
-  <a style="text-decoration: none; color:black"href="http://www.navidrayhan.com">NAVID |</a>
-  <a style="color:black" href="https://github.com/NavidRayhan"><i id="bottom_icons" class="fa fa-fw fa-github"></i></a>
-  <a style="color:black" href="https://www.linkedin.com/in/navidrayhan/"><i id="bottom_icons" class="fa fa-fw fa-linkedin"></i></a>
-  <a style="color:black" href="mailto:work.navidrayhan@gmail.com"><i id="bottom_icons" class="fa fa-fw fa-envelope"></i></a>
-</div>  
+<div class='full-container' style="background-color: rgb(29, 51, 31);; color:white">
+    <div class='text-container'>
+        <h1>Internships</h1>
+        <h2>
+            I have had the privellege of working a few great internships, performing a diverse array of 
+            job functions. Including <b>Machine Learning</b>, <b>Data Engineering</b>, Backend Development, 
+            Full-Stack Development, and Database Design.<br><br>
+            I've lead and participated in some exiting projects that include: Training a neural network to detect signatures for millions of files,
+            helping an old and outdated tourism website stay modern, and designing a real-time data aggregation system to greatly
+            improve marketability and customer retention. <br><br> Click a company to learn more in detail! 
+        </h2>
+    </div>
+    <div class='image-container' id="internships">
+        <br><br>
+        <div style="display: flex; flex-direction: row; padding-left: 11%">
+            <img onclick="document.getElementById('ADLIB').style.display='block'" src="images/adlib_software.png">
+            <img onclick="document.getElementById('ONTARIO-FRESH').style.display='block'" src="images/ontario.jpg">
+        </div>
+        <div style="display: flex; flex-direction: row; padding-left: 11%">
+        <img onclick="document.getElementById('YAS').style.display='block'" src="images/YAS.jpg">
+        <img onclick="document.getElementById('TD').style.display='block'" src="images/td_icon.jpg">
+    </div>
+    </div>
+</div>
+
+<div class='full-container' style="margin-top:-2%"  id="project">
+    <div class='text-container'>
+        <h1>Personal Projects</h1>
+        <h4>
+            StatFreaks Inc. <a href="https://github.com/NavidRayhan/StatFreaks">
+            <i class="fa fa-code" aria-hidden="true"></i></a>
+            <a href="https://github.com/NavidRayhan/StatFreaks">
+            <i class="fa fa-desktop" aria-hidden="true"></i></a>
+        </h4>
+        <h3><b>Technology</b>: Python, Django, REST API, HTML/CSS, jQuery, JavaScript, Git</h3>
+        <h2 style="line-height: 120%;"> Full stack web application that uses RESTful APIs and HttpMethods to display complete 
+            historical NBA Stats in a scalable, UX/UI, and mobile friendly format. I incorporated fun tools like Single Player View 
+        and Random Player Lookup.</h2>      
+        <h2 style="line-height: 120%;"> I created a Big Data Aggregation System thats takes data from Excel.csv and legacy databases to 
+            an optimized Relational Database model created in SQLite, using Python scripting.</h2>
+    </div>
+    <div class='image-container'>
+        <a href="http://navidrayhan.pythonanywhere.com/StatFreaks/"><img src="images/statfreaks.JPG"></a>
+        <a href= "http://navidrayhan.pythonanywhere.com/StatFreaks/Rasual%20Butler/"><img src="images/statfreaks2.JPG" 
+            style="margin-top: 2%"></a>
+    </div>
+</div>    
+
+<div class='full-container' style="margin-top:-2%" id="project">
+        <div class='text-container'>
+            <h4>
+                Scuttle-Butt <a href="https://github.com/NavidRayhan/chat-1">
+                <i class="fa fa-code" aria-hidden="true"></i></a>
+                <a href="https://scuttbutt.azurewebsites.net/">
+                <i class="fa fa-desktop" aria-hidden="true"></i></a> 
+            </h4>
+            <h3><b>Technology</b>: JavaScript, Node.js, Socket.io, HTML/CSS, jQuery, Git, Azure</h3>
+            <h2 style="line-height: 120%;"> Instant Messenger web application that uses Socket.io to pass messages 
+            and message metadata in the back-end. Users have the ability to create new chat rooms and see realtime 
+            updates and new messages in the chat.</h2>
+            <h2 style="line-height: 120%;"> I added a Login verification method to ensure that no 2 users can have the same name. 
+            This project is hosted on MicroSoft Azure.</h2>
+        </div>
+        <div class='image-container'>
+            <a href="https://scuttbutt.azurewebsites.net/"><img src="images/scuttlebutt.JPG"></a>
+        </div>
+    </div>    
+
+<div class="w3-container">
+    <div id="ADLIB" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container"> 
+            <span onclick="document.getElementById('ADLIB').style.display='none'" 
+            class="w3-button w3-display-topright">&times;</span>
+            <h2>Adlib Software - Software Developer (Machine Learning) </h2>
+          </header>
+          <div class="w3-container" id="main-body">
+            <h3>
+                <b>May 2019 to Dec. 2019</b><br>
+                <b>Technologies Used: </b> Python, TensorFlow, .NET 4.6+, C#, SQL Server, XML,
+                RabbitMQ, Azure Devops
+            </h3><br>
+            <h3>
+                <b>Summary:</b> <br>
+                Worked in <b>Agile SCRUM</b> environment with the AI team, making and integrating data science tools,
+                <b>Natural Language Processors</b>, and <b>Object Detecting Neural Networks</b> into 
+                <b>ADLIB ELEVATE</b> (A file classification, conversion, and analytics system). Job functions included:
+                Engineering Data Pipelines and developing tools and validators for ML model accuracies and outputs.
+            </h3>
+            <h3><br>
+                <b>Special Intern Project :</b> <br>
+                Trained a neural network to scan a document and return and highlight the page-by-page 
+                location and exact coordinates of all signatures present. Demo'd an MVP and showcased it 
+                to product, this function will now be included in the 2020 release of <b>ADLIB ELEVATE</b>
+            </h3>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="w3-container">
+    <div id="ONTARIO-FRESH" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container"> 
+            <span onclick="document.getElementById('ONTARIO-FRESH').style.display='none'" 
+            class="w3-button w3-display-topright">&times;</span>
+            <h2>Ontario Fresh - Data Analyst</h2>
+          </header>
+          <div class="w3-container" id="main-body">
+            <h3>
+                <b>Oct 2018 to Feb 2019 [Part time]</b><br>
+                <b>Technologies Used: </b> SQL Server, Python, ORACLE Cloud, ORACLE Business Intelligence
+            </h3><br>
+            <h3>
+                <b>Summary:</b> <br>
+                Worked part time under 1 full-time software engineer to assist with a number of tasks involving the migration
+                & optimization of legacy databases. Projects included: designing a relation database management system to track 
+                and analyze shipping information, ultimately reducing costs by 12%. And creating an automated backend data 
+                aggregation system to monitor client activity and demographical data, to be used by marketing.
+            </h3>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="w3-container">
+    <div id="YAS" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container"> 
+            <span onclick="document.getElementById('YAS').style.display='none'" 
+            class="w3-button w3-display-topright">&times;</span>
+            <h2>Your African Safari - Full Stack Developer</h2>
+          </header>
+          <div class="w3-container" id="main-body">
+            <h3>
+                <b>Aug 2019 - Oct 2019 [Remote/Part Time]</b><br>
+                <b>Technologies Used: </b> Python, Django, SQL, mySQL, JavaScript, jQuery, Angular, Vue, HTML/CSS, MongoDB
+            </h3><br>
+            <h3>
+                <b>Summary:</b> <br>
+                Worked remotely in a team of 2 to migrate an large, unmaintained Perl/PHP 
+                tourism website & legacy database to modern Django/Angular/MongoDB stack, greatly improving functionality and UX.
+                As well as, adding mobile friendly styling.
+            </h3>
+            <h3><br>
+                I completely remastered the photos section, adding a gallery and individual photos view, which included a comments model,
+                related images, and a carosel component.  
+            </h3>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="w3-container">
+    <div id="TD" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container"> 
+            <span onclick="document.getElementById('TD').style.display='none'" 
+            class="w3-button w3-display-topright">&times;</span>
+            <h2>Tech Data - Inside Sales Assosciate </h2>
+          </header>
+          <div class="w3-container" id="main-body">
+            <h3>
+                <b>May 2018 to Aug 2018</b><br>
+                <b>Technologies Used: </b> Excel, Access, SQL, Customer Response Tool
+            <h3>
+                <b>Summary:</b> <br>
+                Led a team of 7 interns, updating spreadsheets with Sales data and inserting them into the internal database
+                at the end of each day. Gained valuable knowledge of the IT industry, specifically the business side and how to 
+                market to and retain customers.
+            </h3>
+          </div>
+        </div>
+    </div>
+</div>
+
 </body>
+
+    
