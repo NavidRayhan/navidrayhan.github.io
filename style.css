@@ -24,8 +24,9 @@ html{
 #init-cover h1{
     margin-top: -0%;
     font-family: 'Consolas';
-    font-size: 130px;
+    font-size: 12vw;
 }
+
 
 #init-cover h2{
     margin-left: -5%;
@@ -143,4 +144,87 @@ header{
 
 #project i{
     font-size: 36px;
+}
+
+#SCROLL2DIV{
+    opacity: 0;
+}
+@media(max-width:1030px){
+
+}
+
+/* mobile styling */
+@media(max-width:450px){
+    
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 16px;
+        padding-right: 5px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    h4{
+        font-size: 26px;
+    }
+    
+    #init-cover i {
+        bottom: -10%; 
+        left: 43% ;
+        font-size: 70px
+    }
+
+    .text-container {
+        width: 100%;
+    }
+
+    .text-container i {
+        font-size: 50px;
+        margin-top: -90px;
+    }
+
+    .image-container {
+        width:100%;
+        padding-bottom: 0px;
+        margin-bottom: -20px;
+    }
+
+    .full-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #internships img{
+        width: 49%;
+        margin-left: -11%;         
+    }
+
+    #internships #right-img{
+        margin-left: 3%;
+    }
+
+    #proj-container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    #proj-container .image-container {
+        margin-bottom: 0px;
+    }
+
+    #proj-container i{
+        font-size: 30px;
+    }
+
+    #SCROLL2{
+        margin-top: 20px;
+    }
+    #SCROLL2DIV{
+        opacity: 1;
+    }
 }
