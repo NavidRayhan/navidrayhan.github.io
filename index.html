@@ -20,15 +20,15 @@
         <h2>Software Engineer Intern</h2>
         <i id= 'SCROLL1' onclick = scrollToNextSection("section02") class="fa fa-chevron-circle-down" aria-hidden="true"></i>
     </div>
-</div>
+</div> 
 
 <div class='full-container'>
     <div class='text-container' id="section02">
         <h1>About Me</h1>
         <h2 style="line-height: 120%;">
-            I am a 3rd year Math & CS major @ McMaster University with a passion for software engineering. 
+            I am a 3rd year Mathematical Sciences (Focus in Computer Science) student @ McMaster University with a passion for software engineering. 
             My areas of interest are Full-stack/Backend  Develop&shy;ment and Data Engineering. <b>I am
-            currently seeking Summer 2020 intenship oppurtunities!</b> 
+            currently seeking <b>New Grad</b> oppurtunities starting Jan 2021!</b> 
         </h2>
         <h3><b>Languages</b>: Python, C#, SQL, JavaScript, Java, HTML/CSS, XML, Ruby <br>
         <b>Frameworks</b>: .NET, Django, Node, Angular, TensorFlow, Rails, mySQL<br>
@@ -39,11 +39,11 @@
         <div style="text-align: center;">
             <a href="https://github.com/NavidRayhan"><i class="fa fa-github" aria-hidden="true"></i></a>
             <a href= "https://www.linkedin.com/in/navidrayhan/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a href="https://github.c   om/NavidRayhan/navidrayhan.github.io"><i class="fa fa-code" aria-hidden="true"></i></a>
+            <a href="https://github.com/NavidRayhan/navidrayhan.github.io"><i class="fa fa-code" aria-hidden="true"></i></a>
             <a href= "mailto:work.navidrayhan@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
             <a href= "images/NavidRayhanResume.pdf"><i class="fa fa-download" aria-hidden="true"></i></a>
         </div>
-        <div id="SCROLL2DIV" style="text-align: center; margin-left:-3.2%;">
+        <div id="SCROLL2DIV" style="text-align: center; margin-left:-3.2%; margin-top:-20px;">
             <i id= 'SCROLL2' onclick= scrollToNextSection("section03") class="fa fa-chevron-circle-down" 
             aria-hidden="true"></i>
         </div> 
@@ -68,8 +68,9 @@
     <div class='image-container' id="internships">
         <br><br>
         <div id="internships" style="display: flex; flex-direction: row; padding-left: 11%">
+            <img id="right-img" onclick="document.getElementById('ONTARIO-FRESH').style.display='block'" src="images/amazon_icon.png">
             <img id="section03-img" onclick="document.getElementById('ADLIB').style.display='block'" src="images/adlib_software.png">
-            <img id="right-img" onclick="document.getElementById('ONTARIO-FRESH').style.display='block'" src="images/ontario.jpg">
+
         </div>
         <div id="internships" style="display: flex; flex-direction: row; padding-left: 11%">
         <img onclick="document.getElementById('YAS').style.display='block'" src="images/YAS.jpg">
@@ -77,10 +78,12 @@
     </div>  
     </div>
 </div>
-
-<div id="proj-container" class='full-container' style="margin-top:-2%"  id="project">
-    <div class='text-container'>
-        <h1>Personal Projects</h1>
+<div id="proj-container" class='full-container' style="margin-top:1%"  id="project"> 
+    <h1 style="margin-left: auto; margin-right: auto">Personal Projects</h1>
+</div>
+<div id="proj-container" class='full-container' style="margin-top:-1%"  id="project">
+    
+    <div class='text-container' id='proj-text-1'>    
         <h4>
             CodeLendar <a href="https://github.com/NavidRayhan/Agenda">
             <i class="fa fa-code" aria-hidden="true"></i></a>
@@ -88,23 +91,21 @@
             <i class="fa fa-desktop" aria-hidden="true"></i></a>
         </h4>
         <h3><b>Technology</b>: Python, Django, REST API, Google Calendar API, HTML/CSS, jQuery, JavaScript, Git, Heroku</h3>
-        <h2 style="line-height: 120%;"> A <b>Cloud-hosted</b> Agenda & Calendar app, uses <b>Django User Authentication</b> and 
-            <b>Google Calendar API</b> to allow secure real-time data transfer between CodeLendar and your Google Calendar.
+        <h2 style="line-height: 120%;"> A <b>Cloud-hosted</b> Agenda & Calendar app, uses <b>Django User Authentication</b> and <b>Google Calendar API</b> to allow secure real-time data transfer between CodeLendar and your Google Calendar.
          <br><br>
          It uses <b>POST/GET</b> methods to add/update events, interviews, exams etc. and display them in Calendar & List View formats.
-        The site is fully styled in HTML/CSS for <b>mobile and tablet friendly formats</b>, uses JavaScript and jQuery to enhance visual experience 
+        The site is fully styled in HTML/CSS for <b>mobile and tablet friendly formats</b>.
 
         </h2>      
             </div>
-    <div class='image-container'>
-        <a href="https://navidrayhan.herokuapp.com/calendar/ "><img src="images/headshot.jpg"></a>
-        <a href="https://navidrayhan.herokuapp.com/tasks/"><img src="images/cal2.jpg"></a>
-            
-    </div>
+        <div class='image-container'>
+            <a href="https://navidrayhan.herokuapp.com/calendar/ "><img src="images/headshot.jpg"></a>
+        </div>  
+        
 </div>    
 
-<div id="proj-container" class='full-container' style="margin-top:-2%"  id="project">
-    <div class='text-container'>
+<div id="proj-container" class='full-container' id="project" style="background-color: rgb(29, 51, 31); color:white">
+    <div class='text-container'  id='proj-text-2'>
         <h4>
             StatFreaks Inc. <a href="https://github.com/NavidRayhan/StatFreaks">
             <i class="fa fa-code" aria-hidden="true"></i></a>
@@ -123,8 +124,8 @@
     </div>
 </div>    
 
-<div id="proj-container" class='full-container' style="margin-top:-2%" id="project">
-        <div class='text-container'>
+<div id="proj-container" class='full-container' id="project">
+        <div class='text-container'  id='proj-text-1'>
             <h4>
                 Scuttle-Butt <a href="https://github.com/NavidRayhan/chat-1">
                 <i class="fa fa-code" aria-hidden="true"></i></a>
@@ -180,20 +181,11 @@
           <header class="w3-container"> 
             <span onclick="document.getElementById('ONTARIO-FRESH').style.display='none'" 
             class="w3-button w3-display-topright">&times;</span>
-            <h2>Ontario Fresh - Data Analyst</h2>
+            <h2>Amazon - Software Development Engineer Intern</h2>
           </header>
           <div class="w3-container" id="main-body">
             <h3>
-                <b>Oct 2018 to Feb 2019 [Part time]</b><br>
-                <b>Technologies Used: </b> SQL Server, Python, ORACLE Cloud, ORACLE Business Intelligence
-            </h3><br>
-            <h3>
-                <b>Summary:</b> <br>
-                Worked part time under 1 full-time software engineer to assist with a number of tasks involving the migration
-                & optimization of legacy databases. Projects included: designing a relation database management system to track 
-                and analyze shipping information, ultimately reducing costs by 12%. And creating an automated backend data 
-                aggregation system to monitor client activity and demographical data, to be used by marketing.
-            </h3>
+                <b>Incoming Summer 2020</b><br>
           </div>
         </div>
     </div>

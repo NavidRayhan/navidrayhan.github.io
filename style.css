@@ -1,6 +1,6 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(255, 247, 232);
     color: rgb(29, 51, 31);
 }
 
@@ -70,7 +70,7 @@ h4 {
     display: inline-flex;
     opacity: 1;
     padding-left: 6%;
-    margin-bottom: 3vh;
+    margin-bottom: 0;
 }
 .text-container {
     width: 55%;
@@ -100,14 +100,26 @@ b {
 .image-container{
     width:45%;
     padding-left: 0%;   
+    vertical-align: middle;
 }
 
 .image-container img {
     width:95%;
-    display: block;
     border: solid  rgb(35, 59, 37) 3px;
-    margin-top: 6%;
+    margin-top: 10%;
+    animation:load_up 2s left;
+    -webkit-animation:load_up 2s forwards;
 }
+@keyframes load_up{
+    from{top:100%}
+    to{top:0%;}
+    
+}@-webkit-keyframes load_up{
+    from{top:100%}
+    to{top:0%;}
+    
+}
+
 
 #internships img {
     margin: 2.5%;
@@ -137,15 +149,25 @@ header{
     font-size: 22px;
 }
 
-#project img:hover{
-    transform: scale(1.02);
-    transition: transform .3s;
-}
-
 #project i{
     font-size: 36px;
 }
 
+#proj-text-1{
+    border-right: solid black 4px;
+}
+
+#proj-text-2{
+    border-right: solid white 4px;
+}
+
+#proj-text-2 i{
+    color:white;
+}
+
+#proj-container{
+    margin:10px;
+}
 #SCROLL2DIV{
     opacity: 0;
 }
@@ -212,9 +234,16 @@ header{
         display:flex;
         flex-direction: column;
     }
+    #proj-text-1{
+        padding-right: 3px;
+    }
+    #proj-text-2{
+        padding-right: 3px;
+    }
 
     #proj-container .image-container {
-        margin-bottom: 0px;
+        margin-bottom: 10px;
+        margin-top: -25px;
     }
 
     #proj-container i{

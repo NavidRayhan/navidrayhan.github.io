@@ -18,13 +18,19 @@ function scrollToNextSection(section) {
 
 $(window).on("load",function() {
     $(window).scroll(function() {
+      var smallScreen = window.matchMedia("(max-width: 500px)");
+      var constant = 0.07;
+      if (smallScreen.matches){
+        constant = 0.23;
+      }
+
       var windowBottom = $(this).scrollTop() + $(this).innerHeight();
       $(".full-container").each(function() {
         /* Check the location of each desired element */
         var objectBottom = $(this).offset().top + $(this).outerHeight();
         
         /* If the element is completely within bounds of the window, fade it in */
-        if (objectBottom - objectBottom*0.23 < windowBottom) { //object comes into view (scrolling down)
+        if (objectBottom - objectBottom*constant < windowBottom) { //object comes into view (scrolling down)
           if ($(this).css("opacity")==0) {$(this).fadeTo(250,1);}
         } else { //object goes out of view (scrolling up)
           if ($(this).css("opacity")==1) {$(this).fadeTo(250,0);}
