@@ -120,7 +120,6 @@ b {
     
 }
 
-
 #internships img {
     margin: 2.5%;
     width: 40%;
@@ -227,7 +226,7 @@ header{
     }
 
     #internships #right-img{
-        margin-left: 3%;
+        margin-left: 2%;
     }
 
     #proj-container{
@@ -256,4 +255,11 @@ header{
     #SCROLL2DIV{
         opacity: 1;
     }
+    #proj-text-1{
+    border-right: none;
+}
+
+#proj-text-2{
+    border-right: none;
+}
 }
